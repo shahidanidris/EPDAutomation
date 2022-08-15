@@ -1,0 +1,6 @@
+C2 --> Description.a
+C4 --> tagNum (remove "CUF-" if any)
+B14 and below --> Noti Number
+C14 and below --> Description.b
+
+

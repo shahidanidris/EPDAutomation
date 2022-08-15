@@ -221,6 +221,7 @@ def separateFiles():
     import shutil
     import openpyxl
     from collections import Counter
+    from plantSortLogic import plantSort
 
     # GUI Menu
     sg.theme("DarkTeal2")
@@ -293,7 +294,8 @@ def separateFiles():
 
     print("Handling file creation, copying, and data processing...")
 
-    shutil.rmtree('filtered tags')
+    if os.path.exists('filtered tags'):
+        shutil.rmtree('filtered tags')
 
     # Create a folder named "filtered tags"
     if os.path.exists('filtered tags'):
@@ -317,6 +319,7 @@ def separateFiles():
     print(duplicates)
 
     for tags in tagsToScan:
+        print("Processing " + tags + "...")
         tagNum = tags
         if tagNum.startswith("CUF-"):
             rewrittenTagNum = tagNum.replace("CUF-", "")
@@ -333,16 +336,30 @@ def separateFiles():
         if len(filteredTag_df.index) == 0:
             # Create a new Excel File with the necessary headers
             if "/" in tagNum:
-                tagNum = tagNum.replace("/", "")
-            targetFileName = "filtered tags/" + str(tagNum) + "__NO_DATA" + ".xlsx"
+                temporaryTagNum = tagNum.replace("/", "-")
+            else:
+                temporaryTagNum = tagNum
+            # Create plant name folders
+            if os.path.exists("filtered tags/" + plantSort(tagNum)):
+                pass
+            else:
+                os.makedirs("filtered tags/" + plantSort(tagNum))
+            targetFileName = "filtered tags/" + plantSort(tagNum) + "/" + str(temporaryTagNum) + "__NO_DATA" + ".xlsx"
             shutil.copy(emptyFile, targetFileName)
             noDataCount = noDataCount + 1
         
         elif len(filteredTag_df.index) > 0:
             # Create a new Excel File with the necessary headers
             if "/" in tagNum:
-                tagNum = tagNum.replace("/", "")
-            targetFileName = "filtered tags/" + str(tagNum) + ".xlsx"
+                temporaryTagNum = tagNum.replace("/", "-")
+            else:
+                temporaryTagNum = tagNum
+            # Create plant name folders
+            if os.path.exists("filtered tags/" + plantSort(tagNum)):
+                pass
+            else:
+                os.makedirs("filtered tags/" + plantSort(tagNum))
+            targetFileName = "filtered tags/" + plantSort(tagNum) + "/" + str(temporaryTagNum) + ".xlsx"
             filteredTag_df.to_excel(targetFileName, index=False)
             withDataCount = withDataCount + 1
 
@@ -350,3 +367,21 @@ def separateFiles():
     print("Total WITH DATA =", withDataCount)
     print("Total tag numbers processed =", noDataCount + withDataCount)
     os.remove(emptyFile)
+
+def failureData(sourceFile_df, tagNum):
+    # Import Libraries
+    import pandas as pd
+        
+    if tagNum.startswith("CUF-"):
+        rewrittenTagNum = tagNum.replace("CUF-", "")
+        filteredTag_df = sourceFile_df.loc[sourceFile_df['Functional Loc.'] == tagNum]
+        filteredTag_df = filteredTag_df.append(sourceFile_df.loc[sourceFile_df['Functional Loc.'] == rewrittenTagNum], ignore_index=True)
+    else:
+        rewrittenTagNum = "CUF-" + tagNum
+        filteredTag_df = sourceFile_df.loc[sourceFile_df['Functional Loc.'] == tagNum]
+        filteredTag_df = filteredTag_df.append(sourceFile_df.loc[sourceFile_df['Functional Loc.'] == rewrittenTagNum], ignore_index=True)
+
+    filteredTag_df.sort_values(by='Notif.date')
+    filteredTag_df.reset_index(inplace=True)
+
+    return filteredTag_df
