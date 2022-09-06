@@ -185,15 +185,18 @@ def epdCreator():
         sampleSheetName = 'COGEN TRANSMITTER, PRESS TURBIN'
         sheetName = "EPD UK " + plantSort(tagNum) + " " + df.at[0, 'Description']
         
-        if "//" in sheetName:
-            sheetName = sheetName.replace("//", "-")
+        if "/" in sheetName:
+            sheetName = sheetName.replace("/", "-")
+        
+        if "#" in sheetName:
+            sheetName = sheetName.replace("#", "_")
 
         if len(sheetName) > len(sampleSheetName):
             failureData_ws.title = sheetName[0:len(sampleSheetName)]
         else:
             failureData_ws.title = sheetName
         
-        epdFilePath = "EPDs/" + sheetName + ".xlsx"
+        epdFilePath = "EPDs/" + sheetName + " " + tagNum + ".xlsx"
         
         epdFile_wb.save(epdFilePath)
 
