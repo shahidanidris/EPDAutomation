@@ -8,8 +8,15 @@ def epdCreator():
     from openpyxl.utils.dataframe import dataframe_to_rows
     import numpy as np
     from plantSortLogic import plantSort
+    from mouseReader import getLongTextNoti, getLongTextWO
     import PySimpleGUI as sg
     import os
+    import re
+    import time
+    import datetime
+
+    # Data Collection Lists
+    longTextList = []
 
     # GUI Menu
     sg.theme("DarkTeal2")
@@ -29,6 +36,8 @@ def epdCreator():
             woExcel = values["-IN3-"]
             break
     window.close()
+
+    start_time = time.time()
 
     # Read IW69
     tempDF = pd.read_excel(sourceFile)
@@ -111,6 +120,35 @@ def epdCreator():
         TBR_series = TBR_series.astype('float64')
         new_df["TBR"] = TBR_series
 
+        for index, row in new_df.iterrows():
+            with open('longText.txt', 'a') as f:
+                f.write("============================================\n")
+                f.write('NOTIFICATION: ' + str(row['Notification']))
+                f.write('\n')
+                f.write(str(row['Description.1']) + ' ')
+                s = getLongTextNoti(row['Notification'])
+                s = s.replace(r"\r\n", " ")
+                try:
+                    result = re.search("b'(.*)'", s)
+                except AttributeError:
+                    result = re.search('b"(.*)"', s)
+                f.write(result.group(1))
+                # f.write('\n')
+                # f.write('WO: ' + str(row['Order']))
+                # f.write('\n')
+                # f.write(str(row['Order']) + ' ')
+                # s_wo = getLongTextWO(row['Order'])
+                # s_wo = s_wo.replace(r"\r\n", " ")
+                # try:
+                #     result_wo = re.search("b'(.*)'", s_wo)
+                # except AttributeError:
+                #     result_wo = re.search('b"(.*)"', s_wo)
+                # f.write(result_wo.group(1))
+                # f.write('\n')
+                longTextList.append(str(row['Description.1']) + ' ' + result.group(1))
+                # longTextList.append(str(row['Description.1']) + ' ' + result.group(1) + ' ' + result_wo.group(1))
+                f.write('\n\n')
+            
         rows = dataframe_to_rows(new_df, index=False, header=False)
 
         for r_idx, row in enumerate(rows, 14):
@@ -202,4 +240,14 @@ def epdCreator():
 
         totalEPDcount = totalEPDcount + 1
 
+    # Data Collection DataFrame
+    dataCollectionDF = pd.DataFrame(
+        {
+            'text' : longTextList
+        }
+    )
+
+    dataCollectionDF.to_csv('longtext.csv', index=False)
     print("Completed EPD files:", totalEPDcount)
+    programExecutionTime = time.time() - start_time
+    print("Total code runtime:", str(datetime.timedelta(seconds=programExecutionTime)))

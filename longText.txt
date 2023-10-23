@@ -1,0 +1,158 @@
+============================================
+NOTIFICATION: 23247658
+BQIA-2A04 conduct reading MBE B faulty 
+============================================
+NOTIFICATION: 23247658
+BQIA-2A04 conduct reading MBE B faulty ============================================
+NOTIFICATION: 23247658
+BQIA-2A04 conduct reading MBE B faulty 
+============================================
+NOTIFICATION: 23247658
+BQIA-2A04 conduct reading MBE B faulty ============================================
+NOTIFICATION: 23247658
+BQIA-2A04 conduct reading MBE B faulty ============================================
+NOTIFICATION: 23247658
+BQIA-2A04 conduct reading MBE B faulty ============================================
+NOTIFICATION: 23247658
+BQIA-2A04 conduct reading MBE B faulty 
+
+============================================
+NOTIFICATION: 23384809
+Silica Analyzer Demin Tank Sequencer 
+
+============================================
+NOTIFICATION: 23282952
+MBE E: Cond probe sample cell leak MBE E: Cond probe sample cell leak - leak at joint between tubing and sample cell. Conduct reading OK.
+
+============================================
+NOTIFICATION: 23377351
+MBE H, QIA 2A04 conductivity analyser re MBE H, QIA 2A04 conductivity analyser reading faulty
+
+============================================
+NOTIFICATION: 24068640
+CF RENEWAL:TEMPERATURE TRANSMITTER PM CA 
+
+============================================
+NOTIFICATION: 24105242
+CF RENEWAL COGEN G: PPM FOR TEMPERATURE 
+
+============================================
+NOTIFICATION: 23389666
+HRSG D : Outlet stack (T1-1D68-TX) readi HRSG D : Outlet stack (T1-1D68-TX) reading undefined
+
+============================================
+NOTIFICATION: 23523323
+HRSG E DUCT(D/STREAM BURNER) READING DIP Work Required Task: To request C&I to replace new transmitter for duct burner reading dipped. Tag number and name: 121TIC-1E67B-TX DUCT(Downstream of Burner) 1st line t/shoot: 1. PO Check trending and found parameter deviation pattern faulty. 2. FO check leak at manifold, tubing and connection. No abnormality 3. FO perform visual inspection on signal cable. Found no cable looseness, burnt mark or physical impairment. T/shooter:Check sensor (ok)Check mA output and found overange. C&I inform to replace new transmitter. remarks: refer attachment for trending
+
+============================================
+NOTIFICATION: 23506361
+HRSG G OUTLET STACK TEMP READING DEVIATE Defect: HRSG G Outlet stack temperature reading deviate Work request task:Propose C&I to perform re-calibration on the transmitter and change the sensor if required. Tag no and name: 121TI-1G68-TX Stack Temp transmitter 1st Line T/shoot:Reset have been done and verfifcation have been made. Troubleshooter:Troubleshooter check reading to compare transmitter and sensor. Found there are deviation on the reading and show low at DCS. Propose C&I to perform re-calibration on the transmitter and change the sensor if required.Required manpower Remarks: No attachment
+
+============================================
+NOTIFICATION: 23332400
+HRSG B: Damper opening reading fluctuate HRSG B: Damper opening reading fluctuate during damper close (between 20% to 0%)  Note: Actual condition at site is OK. Only reading at DCS fluctuate.
+
+============================================
+NOTIFICATION: 23343978
+HRSG B: Diverter MOV position reading fl HRSG B: Diverter MOV position reading fluctuated  Note: Request from C&I to check. C&I already perform stroking. Pls liaise with C&I for further info (Jele)
+
+============================================
+NOTIFICATION: 23383605
+HRSG MOV actuator&controller replacement 
+
+============================================
+NOTIFICATION: 24159423
+HRSG C To erect scaffolding at MOV 1)As found condition: HRSG C DAMPER FEEDBACK INTERMITTENT FAULT 2)Actions taken during Do Troubleshooting: CABLE CHECK BY ELECTRICAL SHIFT 3)Actions taken during Advance Troubleshooting: NA 4)Findings/Observations during Do Troubleshooting: NA 5)Findings/Observations during Advance Troubleshooting: ME REQUEST ERECT SCAFFOLDING AT HRSG C DAMPER. 4)Source of Problem: AWAITING ATS 5)As left condition: BOILER INSERVICE 6)PKP and Troubleshooter name & contact number: MOHAMAD BIN YUSOF 0199568226 / AHMAD ALIFF IRWAN BIN ZAKARIA 0195262701 7)Task: NA 8)Advance Troubleshooting eLog Number: eLOG-GPU-UK OCW-2021-04589 9)Special Tools/ Service/ Equipment required: SCAFFOLDING 10)Attachments: NA 11)Equipment operation need date: IMMEDIATELY. 12)Rectification Window: AS PER CURRENT CONDITION 13)MOC No: NA 14)Remarks: REQUEST CEKCIVC TO INSTALL SCAFFOLDING AT HRSG C DAMPER.
+
+============================================
+NOTIFICATION: 24160051
+HRSG C Diverter MOV position fault 1)As found condition: -HRSG C Diverter MOV position fault.  2)Actions taken during Do Troubleshooting: -OTF check trending to verify parameter deviation pattern faulty. -OTF perform visual inspection on signal cable and local display.  3)Actions taken during Advance Troubleshooting: -OTF raised SAP for erect scaffolding for electrical take some reading.  4)Findings/Observations during Do Troubleshooting: -MOV for 4-20mA signal out of range, reading 3.83mA  5)Findings/Observations during Advance Troubleshooting: -To perform MOV 4-20mA signal tuning during shutdown. -To test open/close damper during shutdown.  4)Source of Problem: -MOV for 4-20mA signal out of range  5)As left condition: -HRSG C in service.  6)PKP and Troubleshooter name & contact number: -N.Azlan (0129854773) Ahmad Aliff Irwan B Zakaria (0195262701)  7)Task: -To perform MOV 4-20mA signal tuning during shutdown. -TO test open/close damper during shutdown  8)Advance Troubleshooting eLog Number: -eLOG-GPU-UK OCW-2021-04589  9)Special Tools/ Service/ Equipment required: -Scaffolding available at site, need to validation.  10)Attachments: -Picture  11)Equipment operation need date: -24 Feb 2021  12)Rectification Window: -24 Feb 2021  13)MOC No: -NA  14)Remarks: -NA
+
+============================================
+NOTIFICATION: 23979731
+HRSG D:DIVERTER DAMPER BADLY VIBRATE HRSG D:DIVERTER DAMPER BADLY VIBRATE AT 98% OPENING  1st Line T/S: 1. Visual check at site and confirm diverter damper vibrate. Observe opening damper at 98%. Regulate to 100% opening and no vibrate observe.  Integrated T/S: NA  Work Request: To rectify the diverter damper vibrate issue and perform inspection.  Tag Number and name: 121GI-1D55TX  Remark: Please refer attachment for detail trending.
+
+============================================
+NOTIFICATION: 23398101
+HRSG G : Diverter MOV position (121GI-1G HRSG G : Diverter MOV position (121GI-1G55-TX) fault  Refer to attachment for trending
+
+============================================
+NOTIFICATION: 23332400
+HRSG B: Damper opening reading fluctuate HRSG B: Damper opening reading fluctuate during damper close (between 20% to 0%)  Note: Actual condition at site is OK. Only reading at DCS fluctuate.
+
+============================================
+NOTIFICATION: 23343978
+HRSG B: Diverter MOV position reading fl HRSG B: Diverter MOV position reading fluctuated  Note: Request from C&I to check. C&I already perform stroking. Pls liaise with C&I for further info (Jele)
+
+============================================
+NOTIFICATION: 23383605
+HRSG MOV actuator&controller replacement 
+
+============================================
+NOTIFICATION: 23332400
+HRSG B: Damper opening reading fluctuate 3400262841
+
+============================================
+NOTIFICATION: 23343978
+HRSG B: Diverter MOV position reading fl ============================================
+NOTIFICATION: 24219131
+HRSG F: Replace Flame Scanner #2  C:\\Users\\shahidan.idris\\Documents\\git\\EPDAutomation>python EPDAutomation.py Enter 1st Observation Date [D/M/YYYY HH:MM AM/PM]: 1/1/2015 12:00 AM Enter last Observation Date [D/M/YYYY HH:MM AM/PM]: 14/6/2022 12:00 AM Number of Tag Numbers to Create EPD: 1 Completed EPD files: 0 Total code runtime: 0:00:29.790334  C:\\Users\\shahidan.idris\\Documents\\git\\EPDAutomation>python EPDAutomation.py Enter 1st Observation Date [D/M/YYYY HH:MM AM/PM]: 1/1/2015 12:00 AM Enter last Observation Date [D/M/YYYY HH:MM AM/PM]: 14/6/2022 12:00 AM Number of Tag Numbers to Create EPD: 10 Doing EPD for 121BZA-1F50B-IR... 
+
+============================================
+NOTIFICATION: 23665735
+TO REPLACE MANUAL CALL POINT AT SUB 6  C:\\Users\\shahidan.idris\\Documents\\git\\EPDAutomation>python EPDAutomation.py Enter 1st Observation Date [D/M/YYYY HH:MM AM/PM]: 22/10/2018 12:00 AM Enter last Observation Date [D/M/YYYY HH:MM AM/PM]: 22/10/2023 12:00 AM Number of Tag Numbers to Create EPD: 39 Doing EPD for 106HZA-001-PB... Traceback (most recent call last):   File "EPDAutomation.py", line 41, in <module>     epdCreator()   File "C:\\Users\\shahidan.idris\\Documents\\git\\EPDAutomation\\epdInput.py", line 112, in epdCreator     wo_df = wo_df[[\'Order\', \'Actual Finish\']]   File "C:\\Users\\shahidan.idris\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pandas\\core\\frame.py", line 3464, in __getitem__     indexer = self.loc._get_listlike_indexer(key, axis=1)[1]   File "C:\\Users\\shahidan.idris\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pandas\\core\\indexing.py", line 1314, in _get_listlike_indexer     self._validate_read_indexer(keyarr, indexer, axis)   File "C:\\Users\\shahidan.idris\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pandas\\core\\indexing.py", line 1377, in _validate_read_indexer     raise KeyError(f"{not_found} not in index") KeyError: "[\'Actual Finish\'] not in index"  C:\\Users\\shahidan.idris\\Documents\\git\\EPDAutomation>python EPDAutomation.py Enter 1st Observation Date [D/M/YYYY HH:MM AM/PM]: 22/10/2018 12:00 AM Enter last Observation Date [D/M/YYYY HH:MM AM/PM]: 22/10/2023 12:00 AM Number of Tag Numbers to Create EPD: 39 Doing EPD for 106HZA-001-PB... Doing EPD for 106HZA-003-PB... Doing EPD for 106HZA-005-PB... Doing EPD for 106HZA-007-PB... Doing EPD for 106HZA-009-PB... Doing EPD for 106HZA-014-PB... Doing EPD for 106HZA-015-PB... Doing EPD for 106HZA-016-PB... 
+
+============================================
+NOTIFICATION: 24197164
+SUB 6 BREAK GLASS (HZA-016) SWITCH KAPUT ============================================
+NOTIFICATION: 23665735
+TO REPLACE MANUAL CALL POINT AT SUB 6 
+
+============================================
+NOTIFICATION: 24197164
+SUB 6 BREAK GLASS (HZA-016) SWITCH KAPUT 1)As found condition: Manual call point switch broken  2)Actions taken during Do Troubleshooting: Check physical MCP and & Glass ok.  3)Actions taken during Advance Troubleshooting: Disconnect switch and alarm not activated  4)Findings/Observations during Do Troubleshooting: Finding switch not touching causing alarm intermittent  5)Findings/Observations during Advance Troubleshooting:N/A  6)Source of Problem: Switch broken  7)As left condition: BYPASS HZA 016. Nearest MCP HZA-015 available. SSBC raised  8)PKP and Troubleshooter name & contact number: Aidil Halim - 017 9837972 / Ariff - 019 7998797  9)Task: To replace manual new manual call point  10)Advance Troubleshooting eLog Number:N/A  11)Special Tools/ Service/ Equipment required: Common Tools  12)Attachments: N/A  13)Equipment operation need date: Immediate  14)Rectification Window: any time  15)MOC No: N/A  16)Remarks: N/A
+
+============================================
+NOTIFICATION: 23665735
+TO REPLACE MANUAL CALL POINT AT SUB 6 
+
+============================================
+NOTIFICATION: 24197164
+SUB 6 BREAK GLASS (HZA-016) SWITCH KAPUT 1)As found condition: Manual call point switch broken  2)Actions taken during Do Troubleshooting: Check physical MCP and & Glass ok.  3)Actions taken during Advance Troubleshooting: Disconnect switch and alarm not activated  4)Findings/Observations during Do Troubleshooting: Finding switch not touching causing alarm intermittent  5)Findings/Observations during Advance Troubleshooting:N/A  6)Source of Problem: Switch broken  7)As left condition: BYPASS HZA 016. Nearest MCP HZA-015 available. SSBC raised  8)PKP and Troubleshooter name & contact number: Aidil Halim - 017 9837972 / Ariff - 019 7998797  9)Task: To replace manual new manual call point  10)Advance Troubleshooting eLog Number:N/A  11)Special Tools/ Service/ Equipment required: Common Tools  12)Attachments: N/A  13)Equipment operation need date: Immediate  14)Rectification Window: any time  15)MOC No: N/A  16)Remarks: N/A
+
+============================================
+NOTIFICATION: 23884748
+MCB: Fire break glass infront MCB faulty MCB: Fire break glass infront MCB faulty  1st line troubleshooting: - Check at DCS alarm trigered is HZA-026-PB. - Check at site break glass in good condition.  Integrated troubleshooting: - Call Shift ELEC Yusra to check break glass, perform tighten for glass casing. Alarm off. - Call standby CNI aizudin, as per advise to raise defect, because there will a team to check on fire alarm system.
+
+============================================
+NOTIFICATION: 24197164
+SUB 6 BREAK GLASS (HZA-016) SWITCH KAPUT 1)As found condition: Manual call point switch broken  2)Actions taken during Do Troubleshooting: Check physical MCP and & Glass ok.  3)Actions taken during Advance Troubleshooting: Disconnect switch and alarm not activated  4)Findings/Observations during Do Troubleshooting: Finding switch not touching causing alarm intermittent  5)Findings/Observations during Advance Troubleshooting:N/A  6)Source of Problem: Switch broken  7)As left condition: BYPASS HZA 016. Nearest MCP HZA-015 available. SSBC raised  8)PKP and Troubleshooter name & contact number: Aidil Halim - 017 9837972 / Ariff - 019 7998797  9)Task: To replace manual new manual call point  10)Advance Troubleshooting eLog Number:N/A  11)Special Tools/ Service/ Equipment required: Common Tools  12)Attachments: N/A  13)Equipment operation need date: Immediate  14)Rectification Window: any time  15)MOC No: N/A  16)Remarks: N/A
+
+============================================
+NOTIFICATION: 23884748
+MCB: Fire break glass infront MCB faulty MCB: Fire break glass infront MCB faulty  1st line troubleshooting: - Check at DCS alarm trigered is HZA-026-PB. - Check at site break glass in good condition.  Integrated troubleshooting: - Call Shift ELEC Yusra to check break glass, perform tighten for glass casing. Alarm off. - Call standby CNI aizudin, as per advise to raise defect, because there will a team to check on fire alarm system.
+
+============================================
+NOTIFICATION: 23665735
+TO REPLACE MANUAL CALL POINT AT SUB 6 
+
+============================================
+NOTIFICATION: 24197164
+SUB 6 BREAK GLASS (HZA-016) SWITCH KAPUT 1)As found condition: Manual call point switch broken  2)Actions taken during Do Troubleshooting: Check physical MCP and & Glass ok.  3)Actions taken during Advance Troubleshooting: Disconnect switch and alarm not activated  4)Findings/Observations during Do Troubleshooting: Finding switch not touching causing alarm intermittent  5)Findings/Observations during Advance Troubleshooting:N/A  6)Source of Problem: Switch broken  7)As left condition: BYPASS HZA 016. Nearest MCP HZA-015 available. SSBC raised  8)PKP and Troubleshooter name & contact number: Aidil Halim - 017 9837972 / Ariff - 019 7998797  9)Task: To replace manual new manual call point  10)Advance Troubleshooting eLog Number:N/A  11)Special Tools/ Service/ Equipment required: Common Tools  12)Attachments: N/A  13)Equipment operation need date: Immediate  14)Rectification Window: any time  15)MOC No: N/A  16)Remarks: N/A
+
+============================================
+NOTIFICATION: 23884748
+MCB: Fire break glass infront MCB faulty MCB: Fire break glass infront MCB faulty  1st line troubleshooting: - Check at DCS alarm trigered is HZA-026-PB. - Check at site break glass in good condition.  Integrated troubleshooting: - Call Shift ELEC Yusra to check break glass, perform tighten for glass casing. Alarm off. - Call standby CNI aizudin, as per advise to raise defect, because there will a team to check on fire alarm system.
+
+============================================
+NOTIFICATION: 23665735
+TO REPLACE MANUAL CALL POINT AT SUB 6 
+
+============================================
+NOTIFICATION: 24197164
+SUB 6 BREAK GLASS (HZA-016) SWITCH KAPUT 1)As found condition: Manual call point switch broken  2)Actions taken during Do Troubleshooting: Check physical MCP and & Glass ok.  3)Actions taken during Advance Troubleshooting: Disconnect switch and alarm not activated  4)Findings/Observations during Do Troubleshooting: Finding switch not touching causing alarm intermittent  5)Findings/Observations during Advance Troubleshooting:N/A  6)Source of Problem: Switch broken  7)As left condition: BYPASS HZA 016. Nearest MCP HZA-015 available. SSBC raised  8)PKP and Troubleshooter name & contact number: Aidil Halim - 017 9837972 / Ariff - 019 7998797  9)Task: To replace manual new manual call point  10)Advance Troubleshooting eLog Number:N/A  11)Special Tools/ Service/ Equipment required: Common Tools  12)Attachments: N/A  13)Equipment operation need date: Immediate  14)Rectification Window: any time  15)MOC No: N/A  16)Remarks: N/A
+
+============================================
+NOTIFICATION: 23884748
+MCB: Fire break glass infront MCB faulty MCB: Fire break glass infront MCB faulty  1st line troubleshooting: - Check at DCS alarm trigered is HZA-026-PB. - Check at site break glass in good condition.  Integrated troubleshooting: - Call Shift ELEC Yusra to check break glass, perform tighten for glass casing. Alarm off. - Call standby CNI aizudin, as per advise to raise defect, because there will a team to check on fire alarm system.
+
